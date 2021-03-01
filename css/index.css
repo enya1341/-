@@ -1,0 +1,434 @@
+@import url("reset.css");
+
+
+
+/*------------------------*/
+/*   　　共通のスタイル      */
+/*------------------------*/
+html {
+  height: 100%;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+body {
+  color: #333333;
+  height: 100%;
+}
+
+.common-btn {
+  display: block;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  background: rgb(211, 0, 0);
+  padding: 0 20px;
+  color: rgb(255, 255, 255 ,1);
+  text-align: center;
+}
+
+.common-btn:hover{
+  opacity: 0.7;
+  transition:0.5s;
+}
+
+.mgb-15 {
+  margin-bottom: 15px;
+}
+
+
+/* ------------------------ */
+/* ---------header-------- */
+/* ------------------------ */
+
+
+
+#header {
+  position: fixed;
+  height:80px;
+  width:100%;
+  background-color:white;
+  color:black;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  z-index: 10;
+}
+
+.header-title {
+  line-height: 80px;
+  padding-left:40px;
+  font-size:26px;
+}
+
+.header-link ul{
+   line-height: 80px;
+}
+
+.header-link li{
+  list-style: none;
+  padding-right:30px;
+}
+
+.header-link a{
+  color:black;
+  font-weight: bold;
+}
+
+
+
+/* ------------------------ */
+/* ----------home---------- */
+/* ------------------------ */
+
+
+
+#home {
+  padding-top:80px;
+  z-index:0;
+}
+
+
+
+/* ------------------------ */
+/* --------home-top-------- */
+/* ------------------------ */
+
+
+
+#home-top {
+  width:100%;
+  height:80vh;
+  background:url(../img/mv.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.top-text {
+  position: absolute;
+  width:100%;
+  color:white; 
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.top-text h1{
+  font-size:48px;
+  font-weight:600;
+  padding-bottom:15px;
+}
+
+.top-text {
+  font-weight: bold;
+}
+
+
+
+
+/* ------------------------ */
+/* -------top-feeling------ */
+/* ------------------------ */
+
+
+
+
+#top-feeling {
+  width:100%;
+  height:40vh;
+  background-color:black;
+  color:white;
+  position: relative;
+}
+
+.feeling-text {
+  position: absolute;
+  width:78%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.feeling-text h3{
+  font-size: 28px;
+  margin-bottom:30px;
+}
+
+.feeling-text p{
+  letter-spacing:1px;
+  line-height: 26px;
+}
+
+
+
+/* ------------------------ */
+/* ---------survice-------- */
+/* ------------------------ */
+
+
+
+#survice {
+  width:100%;
+  height:150vh;
+}
+
+.survice-top {
+  text-align: center;
+  margin:50px 0 20px 0;
+}
+
+.survice-top h3{
+  font-size: 28px;
+}
+
+.survice-contents {
+  width:80%;
+  margin:0 auto;
+}
+
+.survice-overview {
+  width:48%;
+}
+
+.survice-box img{
+  width:100%;
+}
+
+.survice-btn {
+  padding:0 50px;
+  margin:45px auto 0;
+  height: 50px;
+  line-height: 50px;
+  width:160px;
+}
+
+
+
+/* ------------------------ */
+/* ----------news---------- */
+/* ------------------------ */
+
+
+
+#news {
+  height:50vh;
+  width:100%;
+  background-color:black;
+  color:white;
+  position: relative;
+}
+
+.news-top {
+  position: absolute;
+  width:80%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.news-title {
+  margin-bottom:30px;
+}
+
+.news-title h3{
+  font-size:28px;
+}
+
+.news-btn {
+  height:40px;
+  line-height: 40px;
+  width:150px;
+}
+
+.news-box {
+  width:100%;
+  margin:0 auto;
+  display: flex;
+  padding:10px;
+  background-color:white;
+  color:black;
+  margin-bottom: 15px;
+}
+
+.news-box:hover{
+   opacity: 0.7;
+}
+
+.news-box a{
+  color:black;
+  padding-left:15px;
+  font-weight: bold;
+}
+
+
+
+/* ------------------------ */
+/* ----------blog---------- */
+/* ------------------------ */
+
+
+
+#blog {
+  height:70vh;
+  width:100%;
+  background-color:white;
+  position: relative;
+}
+
+.blog-top {
+  position: absolute;
+  width:80%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.blog-title {
+  text-align: center;
+  font-size:28px;
+  margin-bottom:30px;
+  font-weight:bold;
+}
+
+.blog-box {
+  width:30%;
+}
+
+.blog-box h3{
+  font-size: 22px;
+}
+
+.blog-box img:hover{
+  opacity: 0.7;
+}
+
+.blog-btn {
+  width:160px;
+  padding:5px 70px;
+  margin:45px auto 30px;
+}
+
+
+
+/* ------------------------ */
+/* --------company--------- */
+/* ------------------------ */
+
+
+
+#company {
+  height:50vh;
+  width:100%;
+  background-color:white;
+  display: flex;
+
+}
+
+.company-btn {
+  width:50%;
+  height:35vh;
+  line-height: 35vh;
+  font-size:40px;
+}
+
+.recruit-btn {
+  width:50%;
+  height:35vh;
+  line-height: 35vh;
+  font-size:40px;
+  background-color: black;
+}
+
+
+
+/* ------------------------ */
+/* --------contact--------- */
+/* ------------------------ */
+
+
+
+#contact {
+  height:40vh;
+  width:100%;
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+  position: relative;
+}
+
+.contact-top {
+  position: absolute;
+  width:80%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.contact-top h3{
+  font-size:28px;
+  margin-bottom:30px;
+}
+
+.contact-top p{
+  margin-bottom:50px;
+}
+
+.contact-btn {
+  margin:0 auto;
+  padding:5px 80px;
+}
+
+
+
+/* ------------------------ */
+/* ---------footer--------- */
+/* ------------------------ */
+
+
+
+#footer {
+  height:10vh;
+  width:100%;
+  background-color:black;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer-title {
+  line-height: 10vh;
+  font-size: 12px;
+}
+
+.footer-link ul{
+   line-height: 10vh;
+}
+
+.footer-link li{
+  list-style: none;
+  padding-right:10px;
+  font-size: 12px;
+}
+
+.footer-link a{
+  color:white;
+  font-weight: bold;
+}
