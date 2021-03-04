@@ -1,1 +1,234 @@
 @import url("reset.css");
+
+@import url("reset.css");
+
+
+
+/*------------------------*/
+/*   　　共通のスタイル      */
+/*------------------------*/
+html {
+  height: 100%;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+body {
+  color: #333333;
+  height: 100%;
+}
+
+.common-btn {
+  display: block;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  background: rgb(211, 0, 0);
+  padding: 0 20px;
+  color: rgb(255, 255, 255 ,1);
+  text-align: center;
+}
+
+.common-btn:hover{
+  opacity: 0.7;
+  transition:0.5s;
+}
+
+.mgb-15 {
+  margin-bottom: 15px;
+}
+
+
+/* ------------------------ */
+/* ---------header-------- */
+/* ------------------------ */
+
+
+
+#header {
+  position: fixed;
+  height:80px;
+  width:100%;
+  background-color:white;
+  color:black;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  z-index: 10;
+}
+
+.header-title {
+  line-height: 80px;
+  padding-left:40px;
+  font-size:26px;
+}
+
+.header-link ul{
+   line-height: 80px;
+}
+
+.header-link li{
+  list-style: none;
+  padding-right:30px;
+}
+
+.header-link a{
+  color:black;
+  font-weight: bold;
+}
+
+
+/* ------------------------ */
+/* ----------home---------- */
+/* ------------------------ */
+
+
+
+#home {
+  padding-top:80px;
+  z-index:0;
+}
+
+
+
+/* ------------------------ */
+/* --------home-top-------- */
+/* ------------------------ */
+
+
+
+#home-top {
+  width:100%;
+  height:35vh;
+  background:url(../img/mv.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.top-text {
+  position: absolute;
+  width:100%;
+  color:white; 
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.top-text h1{
+  font-size:36px;
+  font-weight:bold;
+}
+
+
+
+/* ------------------------ */
+/* ---------contact-------- */
+/* ------------------------ */
+
+
+
+#contact {
+  width:100%;
+  height:70vh;
+  position: relative;
+}
+
+.contact-top {
+  position: absolute;
+  width:60%;
+  margin:0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.form input,.form textarea{
+  display: block;
+  width:100%;
+  margin-bottom:30px;
+  border: 1px rgb(168, 168, 168) solid;
+}
+
+.form label{
+  display:block;
+  margin:10px 0;
+  font-weight: bold;
+}
+
+.form input{
+  padding:5px 0;
+}
+
+.form textarea{
+  padding:50px 0;
+}
+
+.request-button {
+  text-align:center;
+}
+
+.button {
+  padding:10px 120px;
+  background-color: black;
+  color:white;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* ------------------------ */
+/* ---------footer--------- */
+/* ------------------------ */
+
+
+
+#footer {
+  height:10vh;
+  width:100%;
+  background-color:black;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer-title {
+  line-height: 10vh;
+  font-size: 12px;
+}
+
+.footer-link ul{
+   line-height: 10vh;
+}
+
+.footer-link li{
+  list-style: none;
+  padding-right:10px;
+  font-size: 12px;
+}
+
+.footer-link a{
+  color:white;
+  font-weight: bold;
+}

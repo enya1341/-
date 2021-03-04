@@ -187,7 +187,7 @@ body {
 
 #survice {
   width:100%;
-  height:150vh;
+  height:140vh;
 }
 
 .survice-top {
@@ -310,6 +310,7 @@ body {
 
 .blog-box {
   width:30%;
+  height:30vh;
 }
 
 .blog-box h3{
@@ -323,7 +324,7 @@ body {
 .blog-btn {
   width:160px;
   padding:5px 70px;
-  margin:45px auto 30px;
+  margin:105px auto 30px;
 }
 
 
