@@ -1,7 +1,5 @@
 @import url("reset.css");
-
-
-@import url("reset.css");
+@import url("responsive.css");
 
 
 
@@ -168,7 +166,7 @@ body {
 }
 
 .news-box {
-  width:100%;
+  width:90%;
   margin:0 auto;
   display: flex;
   border:1px black solid;
@@ -268,4 +266,24 @@ body {
 .footer-link a{
   color:white;
   font-weight: bold;
+}
+
+/* ------------------------ */
+/* -------responsive------- */
+/* ------------------------ */
+
+
+@media screen and (max-width: 768px) {
+
+
+
+/* ------------------------ */
+/* ----------news---------- */
+/* ------------------------ */
+
+.news-box {
+  padding:5px 15px;
+}
+
+
 }

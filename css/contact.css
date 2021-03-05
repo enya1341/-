@@ -1,7 +1,5 @@
 @import url("reset.css");
 
-@import url("reset.css");
-
 
 
 /*------------------------*/
@@ -231,4 +229,27 @@ body {
 .footer-link a{
   color:white;
   font-weight: bold;
+}
+
+
+
+/* ------------------------ */
+/* -------responsive------- */
+/* ------------------------ */
+
+
+@media screen and (max-width: 768px) {
+
+/* ------------------------ */
+/* ---------contact-------- */
+/* ------------------------ */
+
+#contact {
+  height:80vh;
+}
+
+.contact-top {
+  width:90%;
+}
+
 }

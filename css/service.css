@@ -1,10 +1,6 @@
 @import url("reset.css");
 
 
-@import url("reset.css");
-
-
-
 /*------------------------*/
 /*   　　共通のスタイル      */
 /*------------------------*/
@@ -255,4 +251,46 @@ body {
 .footer-link a{
   color:white;
   font-weight: bold;
+}
+
+
+
+/* ------------------------ */
+/* -------responsive------- */
+/* ------------------------ */
+
+
+@media screen and (max-width: 768px) {
+
+
+
+/* ------------------------ */
+/* ---------survice-------- */
+/* ------------------------ */
+
+
+
+#survice {
+  height:175vh;
+}
+
+
+.survice-contents {
+  width:85%;
+}
+
+.survice-overview {
+  display: block;
+  padding-top:15px;
+  margin-bottom:15px;
+}
+
+.survice-img{
+  width:100%;
+}
+
+.survice-box:last-child{
+  padding-bottom:15px;
+}
+
 }

@@ -1,0 +1,102 @@
+@import url("reset.css");
+
+
+@media screen and (min-width: 769px) {
+#hamburger {
+  display:none;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+
+/*------------------------*/
+/*   　　共通のスタイル      */
+/*------------------------*/
+
+
+.flex {
+  display: block;
+  justify-content:none;
+  align-items:none;
+  flex-wrap: none;
+}
+
+
+/* ------------------------ */
+/* ---------header-------- */
+/* ------------------------ */
+
+
+#hamburger {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  top: 15px;
+  right: 20px;
+  transition: 0.4s;
+}
+
+#hamburger span {
+  position: absolute;
+  left: 2px;
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: rgb(114, 114, 114);
+  transition: 0.8s;
+}
+
+#hamburger span:nth-of-type(1) {
+  top: 10px;
+}
+
+#hamburger span:nth-of-type(2) {
+  top: 20px;
+}
+
+#hamburger span:nth-of-type(3) {
+  top: 30px;
+}
+
+.header-link {
+  display: none;
+}
+
+
+
+
+
+/* ------------------------ */
+/* ----------footer-------- */
+/* ------------------------ */
+
+
+
+#footer {
+  height:40vh;
+  display: block;
+  justify-content:none;
+  text-align: center;
+}
+
+.footer-title {
+  line-height: 10vh;
+  font-size: 12px;
+}
+
+.footer-link ul{
+   line-height: 30px;
+}
+
+.footer-link li{
+  padding-right:0;
+}
+
+.footer-link li:nth-child(2n){
+  display:none;
+}
+
+}

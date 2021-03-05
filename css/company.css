@@ -1,7 +1,6 @@
 @import url("reset.css");
 
 
-
 /*------------------------*/
 /*   　　共通のスタイル      */
 /*------------------------*/
@@ -271,3 +270,31 @@ body {
   font-weight: bold;
 }
 
+
+
+/* ------------------------ */
+/* -------responsive------- */
+/* ------------------------ */
+
+
+@media screen and (max-width: 768px) {
+
+#company {
+  height:105vh;
+}
+
+
+.company-top {
+  width:90%;
+  height:85vh;
+}
+
+
+.new-graduate {
+  height:40vh;
+}
+
+.carrier {
+  height:40vh;
+}
+}

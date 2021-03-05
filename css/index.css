@@ -1,7 +1,5 @@
 @import url("reset.css");
 
-
-
 /*------------------------*/
 /*   　　共通のスタイル      */
 /*------------------------*/
@@ -272,9 +270,16 @@ body {
    opacity: 0.7;
 }
 
-.news-box a{
+.news-box p:last-child{
   color:black;
   padding-left:15px;
+  font-weight: bold;
+}
+
+
+.news-box p:last-child{
+  color:black;
+  padding-right:0;
   font-weight: bold;
 }
 
@@ -432,4 +437,172 @@ body {
 .footer-link a{
   color:white;
   font-weight: bold;
+}
+
+
+
+/* ------------------------ */
+/* -------responsive------- */
+/* ------------------------ */
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+/* ------------------------ */
+/* --------home-top-------- */
+/* ------------------------ */
+
+.top-text {
+  position: absolute;
+  width:80%;
+  margin:0 auto;
+}
+
+.top-text h1{
+  font-size:48px;
+  font-weight:600;
+  padding-bottom:15px;
+  line-height: 80px;
+}
+
+.top-text {
+  font-weight: bold;
+  line-height: 30px;
+}
+
+
+
+/* ------------------------ */
+/* -------top-feeling------ */
+/* ------------------------ */
+
+
+
+
+#top-feeling {
+  height:60vh;
+}
+
+.feeling-text {
+  width:78%;
+}
+
+.feeling-text p{
+  font-size:14px;
+}
+
+
+
+/* ------------------------ */
+/* ---------survice-------- */
+/* ------------------------ */
+
+
+
+#survice {
+  height:170vh;
+}
+
+.survice-contents {
+  width:85%;
+  margin:0 auto;
+}
+
+.survice-overview {
+  width:100%;
+}
+
+
+.survice-btn {
+  width:190px;
+}
+
+
+
+/* ------------------------ */
+/* ----------news---------- */
+/* ------------------------ */
+
+
+
+#news {
+  height:50vh;
+}
+
+.news-top {
+  width:85%;
+}
+
+.news-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.news-btn {
+  font-size:14px;
+  padding:0 10px;
+  width:140px;
+}
+
+.news-box {
+  width:95%;
+  display: flex;
+  padding:10px;
+  background-color:white;
+  color:black;
+  margin-bottom: 15px;
+  font-size:14px;
+}
+
+
+
+/* ------------------------ */
+/* ----------blog---------- */
+/* ------------------------ */
+
+
+
+#blog {
+  height:130vh;
+}
+
+.blog-top {
+  width:85%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+
+.blog-box {
+  width:100%;
+  height:25vh;
+  margin-bottom:10vh;
+}
+
+.blog-box h3{
+  font-size: 18px;
+}
+
+
+/* ------------------------ */
+/* --------company--------- */
+/* ------------------------ */
+
+
+
+.company-btn {
+  font-size:22px;
+}
+
+.recruit-btn {
+  font-size:22px;
+}
+
+
 }
